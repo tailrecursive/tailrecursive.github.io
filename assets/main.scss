@@ -1,0 +1,42 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import 'https://fonts.googleapis.com/css?family=Anonymous+Pro|Architects+Daughter';
+
+blockquote {
+  font-family: 'Architects Daughter', cursive;
+  letter-spacing: normal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+div.highlighter-rouge {
+  background-image: url("../images/dotmatrixpaper-repeat-blue.jpg");
+  background-repeat: repeat-y;
+  background-position: center top;
+  background-size: 100%;
+}
+
+.highlighter-rouge .highlight {
+  background: inherit;
+}
+
+.highlight {
+  background: inherit;
+}
+
+pre, code {
+  background: inherit;
+  font-family: 'Anonymous Pro', monospace;
+}
+
+
+pre.highlight {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+@import "minima";
+
